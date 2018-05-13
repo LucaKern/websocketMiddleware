@@ -1,5 +1,5 @@
-import { SOCKET } from '../constants'
-import { socket } from '../../App'
+// import { SOCKET } from '../constants' -> 'SOCKET'
+// import { socket } from '../../App' --> import the socket
 
 export default ({ dispatch, getState }) => next => action => {
   if (action.type !== SOCKET) {
